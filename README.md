@@ -1,24 +1,3 @@
-WikiScience
-
-تشغيل الخادم (Terminal 1)
-cd backend
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan storage:link
-php artisan serve
-
-تشغيل الواجهة (Terminal 2)
-cd frontend
-npm install
-cp .env.example .env.local
-npm run dev
-
-الاستخدام
-افتح http://localhost:3000
-البريد: try@gmail.com
-Password:12345678
 
 # WikiScience
 
@@ -90,3 +69,19 @@ npm run dev
 | الصور لا تظهر                    | نفّذ `php artisan storage:link`                                                        |
 
 ---
+WikiScience
+
+تشغيل الخادم (Terminal 1)
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan storage:link
+php artisan serve
+
+تشغيل الواجهة (Terminal 2)
+cd frontend
+npm install
+cp .env.example .env.local
+npm run dev
